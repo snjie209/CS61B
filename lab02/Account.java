@@ -2,12 +2,11 @@
 // balance is a nonnegative amount in US dollars.
 
 public class Account {
-	this.myBalance = balance;
 
 	// Add the given amount to the account.
 	public void deposit (int amount) {
 		if (amount < 0) {
-			System.out.println ("Cannot deposit negative amount.";);
+			System.out.println ("Cannot deposit negative amount.");
 		} else {
 			this.myBalance = this.myBalance + amount;
 		}
@@ -18,7 +17,7 @@ public class Account {
 	// negative balance, print an error message and
 	// leave the balance unchanged.
 
-	public void withdraw (int amount) {
+	public boolean withdraw (int amount) {
 		if (amount < 0) {
 			System.out.println ("Cannot withdraw negative amount.");
 			return false;
@@ -30,6 +29,7 @@ public class Account {
 			} else {
 				this.myBalance = 0;
 				this.parentAccount.withdraw(amount);
+				return true;
 			}
 		} else {
 			this.myBalance = this.myBalance - amount;
@@ -67,8 +67,22 @@ public class Account {
 		this.parentAccount = account;
 	}
 
-	// public static void main(String[] args) {
-	// }
+	public static void main(String[] args) {
+		Account Sammy = new Account(30, null);
+		Account Sam = new Account(20, Sammy);
+
+		System.out.println("Before withdrawals, Sam has " + Sam.balance() + " dollars and Sammy has " + Sammy.balance() + " dollars.");
+		System.out.println("Test 1: Withdraw 10 dollars from Sam's account:");
+		System.out.println(Sam.withdraw(10));
+		System.out.println(Sam.myBalance);
+		System.out.println(Sammy.balance());
+
+		System.out.println("Given 10 dollars previously withdrawn from Sam's account,");
+		System.out.println("Withdraw 15 dollars from the same account:");
+		System.out.println(Sam.withdraw(15));
+		System.out.println("Sam's balance " + Sam.balance() + "; Sammy's balance: " + Sammy.balance());
+
+	}
 }
 
 
