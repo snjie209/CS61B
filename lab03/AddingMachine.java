@@ -11,7 +11,7 @@ public class AddingMachine {
 		int input;
 		int last = 1;
 		int MAXIMUM_NUMBER_OF_INPUTS = 100;
-    // TODO Add code here and elsewhere to complete AddingMachine
+		// TODO Add code here and elsewhere to complete AddingMachine
 		while (true) {
 			input = scanner.nextInt();
 			if (input == 0) {
@@ -29,7 +29,14 @@ public class AddingMachine {
 			if (input != 0) {
 				isPreviousZero = false;
 			}
-		   
+
+
+			if (last == MAXIMUM_NUMBER_OF_INPUTS) {
+				break;
+			}
+			last += 1;
+			continue;
+
 		}
 	}
 
