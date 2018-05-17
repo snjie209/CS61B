@@ -3,11 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="772c03d4-2565-4a16-801b-7d000c529383" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ArrayOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/ArrayOperations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SieveOfEratosthenes.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab03/AddingMachine.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab03/AddingMachine.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab03/ArrayOperations.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab03/ArrayOperations.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab03/nextInt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab03/nextInt.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,7 +17,7 @@
       <file leaf-file-name="DateConverter.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DateConverter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="31">
+            <state relative-caret-position="375">
               <caret line="25" selection-start-line="25" selection-end-line="25" />
             </state>
           </provider>
@@ -32,7 +27,7 @@
         <entry file="file://$PROJECT_DIR$/TriangleDrawer.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
-              <caret line="7" column="31" lean-forward="true" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+              <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -58,8 +53,8 @@
       <file leaf-file-name="ArrayOperations.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ArrayOperations.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="12" column="38" lean-forward="true" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
+            <state relative-caret-position="180">
+              <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -76,8 +71,8 @@
       <file leaf-file-name="SieveOfErathosthenes.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/SieveOfErathosthenes.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" column="13" lean-forward="true" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+            <state relative-caret-position="450">
+              <caret line="30" column="33" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -112,8 +107,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -125,7 +119,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -269,13 +264,12 @@
     <layout>
       <window_info anchor="right" id="Palette" order="7" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.328877" />
       <window_info anchor="right" id="Palette&#9;" order="5" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="6" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.328877" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.328877" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Style Checker" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
@@ -294,12 +288,62 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.328877" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/DateConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TriangleDrawer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="31" lean-forward="true" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TriangleDrawer2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AddingMachine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="37" column="21" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ArrayOperations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="38" lean-forward="true" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ArrayOperationsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="44" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SieveOfErathosthenes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="33" lean-forward="true" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/DateConverter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
@@ -366,13 +410,13 @@
     <entry file="file://$PROJECT_DIR$/TriangleDrawer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="7" column="31" lean-forward="true" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/DateConverter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="31">
+        <state relative-caret-position="375">
           <caret line="25" selection-start-line="25" selection-end-line="25" />
         </state>
       </provider>
@@ -393,18 +437,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ArrayOperations.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="12" column="38" lean-forward="true" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
+        <state relative-caret-position="180">
+          <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SieveOfEratosthenes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="51" selection-start-line="8" selection-start-column="51" selection-end-line="8" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/SieveOfEratosthenes.java" />
     <entry file="file://$PROJECT_DIR$/ArrayOperationsTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -414,8 +452,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/SieveOfErathosthenes.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="13" lean-forward="true" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+        <state relative-caret-position="450">
+          <caret line="30" column="33" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
         </state>
       </provider>
     </entry>
